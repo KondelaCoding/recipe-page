@@ -101,7 +101,7 @@ th, td {
 }
 
 tr {
-  border-bottom: solid black 1px;
+  border-bottom: solid rgba(0,0,0,0.5) 1px;
 }
 
 @media (min-width: 576px) {
