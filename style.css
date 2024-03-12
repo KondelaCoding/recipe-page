@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin:0;
+}
+
+#page {
+  padding-bottom: 20px;
+}
+
+hr {
+  margin: 10px 40px;
+  opacity:50%;
+}
+
+img {
+  margin: 0;
+  width: 100%;
+}
+
+.block {
+  margin: 10px 40px;
+  width: auto;
+}
+
+.small-text {
+  margin-top: 0;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.big-text {
+  margin-bottom: 10px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#title {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#preparation-time {
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+}
+
+.preparation-time-text {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+  margin: 0;
+}
+
+ul, ol {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+ul .small-text, ol .small-text {
+  margin-bottom: 10px;
+}
+
+ol li, ul li {
+  padding-left: 20px;
+  color: hsl(30, 10%, 34%);
+  margin: 10px;
+}
+
+.brown-text {
+  font-family: "Outfit",sans-serif;
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+  font-size: 0.8rem;
+}
+
+#preparation-time ul .brown-text {
+  color: hsl(332, 51%, 32%);
+}
+
+table {
+  margin: auto;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-right: 60px;
+}
+
+tr {
+  border-bottom: solid black 1px;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  #page {
+    background-color: white;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 15px;
+  }
+
+  img {
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0;
+    border-radius: 15px;
+  }
+
+  .bordered {
+    padding-right: 150px;
+    border-bottom: solid black 1px;
+  }
+}
+
+jd {
+  color: hsl(0, 0%, 100%);
+  color: hsl(330, 100%, 98%);
+  color: hsl(30, 54%, 90%);
+  color: hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+  color: hsl(24, 5%, 18%);
+  color: hsl(332, 51%, 32%);
+  color: hsl(14, 45%, 36%);
+}
